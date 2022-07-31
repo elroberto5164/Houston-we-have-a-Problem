@@ -19,7 +19,7 @@ def chooseCave():#Or did you misspell this?
     cave = ''#What in the name of holy Microsoft is this? INDENT THE LINE!!
 	while cave != '1' and cave != '2':#That means use consistent indents!!
 		print('Which cave will you go into? (1 or 2)')
-		cave = input()
+		cave = input()#So look at this line, then go back and look at line 19. You needs input in line 19
 
 	return caves
 
@@ -33,7 +33,7 @@ def checkCave(chosenCave):#This doesn't feel right...right? shouldn't this be (c
 	print('A large dragon jumps out in front of you! He opens his jaws and...')
 	print()
 	#sleep for 2 seconds
-	time.sleep(2) #What in the...WHat are you?
+	time.sleep(2) 
 	friendlyCave = random.randint(1, 2)
 
 	if chosenCave == str(friendlyCave):#So...does this line reference line 26? It might be easier to define a class, and change that function to an attribute.
